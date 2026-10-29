@@ -1,0 +1,5 @@
+# This app consumes the locally generated SDK. Install it (from the repo root) with:
+#   pip install -e "postman/sdks/Collections SDKs/vehicle/python"
+#
+# The SDK declares its own runtime dependencies (httpx, pydantic, etc.) in its
+# pyproject.toml, so no extra third-party packages are required here.

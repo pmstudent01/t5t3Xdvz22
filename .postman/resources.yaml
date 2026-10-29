@@ -1,0 +1,25 @@
+workspace:
+  id: 6aaaf11b-cace-4566-a4ca-6a587e602e4c
+cloudResources:
+  specs:
+    ../postman/specs/Vehicle Service Spec/index.yaml: 18f662e2-65bf-431c-96c9-95791d300cc0
+  collections:
+    ../postman/collections/Vehicle Service QA Testing Collection: 59276845-26c42f5c-d044-402a-b97a-7d397deba43b
+    ../postman/collections/Vehicle Service Collection: 59276848-dbeaf851-54e0-4a71-a00e-bc23fa90b1e3
+  environments:
+    ../postman/environments/Mock Environment.environment.yaml: 59276845-d7a6c51f-e04d-4c6f-86c0-d09a7a79910c
+    ../postman/environments/Local – Agent Mode.environment.yaml: 59276845-9508a866-2c87-4a53-9cdf-81682fc1ebf2
+    ../postman/environments/Local.environment.yaml: 59276845-bcdd5cb1-4dd6-4779-99f7-724427c6f364
+  globals:
+    ../postman/globals/workspace.globals.yaml: f1b399f1-38ef-4698-80f5-5e2a8737c94a
+  documents:
+    ../postman/documents/WORKSPACE-README.md: 822fa7d0-82e4-4620-8142-724fdab203f7
+  mocks:
+    ../postman/mocks/template-mock/config.yaml: 01a18806-f751-72ec-bede-a1a09bb5eec7
+    ../postman/mocks/vehicle-service-mock/config.yaml: 01a18814-be0b-7728-83dc-2561c39ad04d
+resourceNameMappings:
+  specs:
+    - ../postman/specs/Vehicle Service Spec/index.yaml: Vehicle Service Spec
+localResources:
+  specs:
+    - ../postman/specs/Vehicle Service Spec/index.yaml
