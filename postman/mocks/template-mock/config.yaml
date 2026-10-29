@@ -1,0 +1,16 @@
+id: 01a18806-f751-72ec-bede-a1a09bb5eec7
+version: 1
+name: Template Mock
+slug: new-mock-34fd7
+enableSession: true
+protocol: http
+port: 4500
+autoRestartOnChange: true
+logging:
+  level: verbose
+  showBody: true
+scenarios:
+  - name: default
+    path: ./default.js
+    default: true
+    id: 01a1882e-fca0-75e8-9a4c-e02b4bdabab0
